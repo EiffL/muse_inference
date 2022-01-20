@@ -5,13 +5,11 @@ description = ""
 authors = ["Marius Millea <mariusmillea@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = ">=3.9,<3.11"
-scipy = "^1.7.3"
+scipy = ">=1.4.1"
 numpy = ">=1.15.0,<1.22.0"
-pymc = "4.0.0b2"
-jax = "^0.2.27"
-tqdm = "^4.62.3"
-jaxlib = "^0.1.75"
+pymc = ">=4.0.0b2"
+jax = ">=0.2.13"
+#tqdm
 
 [tool.poetry.dev-dependencies]
 jupytext = "^1.13.6"
